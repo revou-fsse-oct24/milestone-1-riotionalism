@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nizamia International School</title>
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bokor&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jacquard+12&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- LINK FONT -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png" />
+    <meta name="description" content="Nizamia International School">
+    <meta name="author" content="riotionalism" />
+    <meta name="keywords" content="International School">
+    <meta name="og:title" content="Nizamia International School">
+    <meta name="og:description" content="Website of Nizamia International School">
+    <!-- <meta name="og:image" content=""> -->
+    <base href="Assets/" target="_blank">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <img src="logo.png" alt="Logo" class="nav-logo" />
+                <button class="hamburger" aria-label="Toggle navigation">
+                    ☰
+                </button>
+                <ul class="nav-links">
+                    <li><a href="test.html">Profile</a></li>
+                    <li><a href="test.html">Achievements</a></li>
+                    <li><a href="test.html">Publication</a></li>
+                    <li><a href="test.html">Facilities</a></li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- JS UNTUK HAMBURGER BUTTON -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script><br><br><br>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-image">
+                <img src="main.jpg" alt="corporation">
+            </div>
+            <p>Nizamia International School is dedicated to offering a holistic education that seamlessly integrates
+                Islamic values with modern academic principles. By fostering a learning environment rooted in both
+                spiritual and intellectual growth, the school empowers students to excel academically while developing
+                strong moral character. With a curriculum that emphasizes critical thinking, innovation, and ethical
+                leadership, Nizamia International School aims to nurture well-rounded individuals who are prepared to
+                contribute positively to society, upholding both their faith and their roles as global citizens.</p>
+        </section>
+
+        <!-- PROGRAM SECTION -->
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <article>
+                <h3>Early Childhood Education</h3>
+                <p>Our early childhood program nurtures young learners with a balanced approach to play and learning.
+                </p><br>
+            </article>
+            <article>
+                <h3>Primary School</h3>
+                <p>We offer a comprehensive primary school curriculum that combines academic rigor with moral teachings.
+                </p><br>
+            </article>
+            <article>
+                <h3>Secondary School</h3>
+                <p>Preparing students for higher education with a strong foundation in science, technology, and
+                    humanities.</p><br>
+            </article>
+        </section>
+
+        <!-- ADMISSIONS SECTION -->
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <div class="input">
+                <label>Full Name:</label><br>
+                    <input type="text" placeholder="Insert Your Full Name"><br><br>
+                <label>Nick Name:</label><br>
+                    <input type="text" placeholder="Insert Yout Nick Name"><br><br>
+                <label>Phone Number:</label><br>
+                    <input type="text" placeholder="+62XX-XXXX-XXXX"><br><br>
+                <label>Email:</label><br>
+                    <input type="text" placeholder="Insert E-mail Address"><br><br>
+                <label>Nationality:</label><br>
+                <select id="Nationality" name="Nationality">
+                    <option>Indonesia</option><br><br>
+                </select>
+                <button>submit</button>
+            </div>
+            <p><a href="https://wa.me/6285156912223">Contact us</a> for more details.</p>
+        </section>
+
+        <!-- Activities SECTION -->
+        <section id="Activities">
+            <h2>Activities</h2>
+            <div class="image-grid">
+                <img src="1.jpg" alt="Gambar 1">
+                <img src="2.jpg" alt="Gambar 2">
+                <img src="3.jpg" alt="Gambar 3">
+                <img src="4.jpg" alt="Gambar 4">
+                <img src="5.jpg" alt="Gambar 5">
+                <img src="6.jpg" alt="Gambar 6">
+                <img src="7.jpg" alt="Gambar 7">
+                <img src="8.jpg" alt="Gambar 8">
+            </div>
+        </section>
+    </main>
+</body>
+
+<footer>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p>Nizamia International School</p>
+            <p>Whispering Pines, 47 Moonlit Grove, Nusantara Capital City, West Kalimantan, Indonesia 1089</p>
+            <p>Email: <a href="mailto:fytrioamando@gmail.com">info@nizamia.edu</a></p>
+        </address>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/riotionalism" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/rio.amando.5" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    alt="Facebook">
+            </a>
+            <a href="https://www.tiktok.com/@armonior" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/TikTok_logo_2019.svg" alt="TikTok">
+            </a>
+            <a href="https://wa.me/6285156912223" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
+    </section>
+    <p>&copy; 2024 Nizamia International School. All Rights Reserved.</p>
+</footer>
+
+</html>
